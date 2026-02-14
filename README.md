@@ -16,10 +16,19 @@ enterprise‑ready architecture.
 ------------------------------------------------------------------------
 </div>
 
+---
+## Note 🏷️
+
+**• You can contact the developer**
+
+[![Contact Developer](https://img.shields.io/badge/Portfolio-Visit-blue?logo=github)](https://icecube9680.github.io) 
+
+---
+
 ## ✨ Why This Bot?
 
 -   🔓 Access restricted/private content securely
--   📦 Batch download support (`100-200` ranges)
+-   📦 Batch download support
 -   ⏸ Persistent queue system (restart-safe)
 -   🔐 Encrypted session storage
 -   📊 Real-time monitoring & metrics
@@ -50,7 +59,7 @@ concerns.
 # 📁 Project Structure
 
 ``` bash
-telegram-downloader/
+Save-Restricted-Content/
 │
 ├── backups/
 ├── downloads/
@@ -111,24 +120,13 @@ Encrypted sessions, rate limiting, and strict admin validation.
 # 🚀 Quick Setup
 
 ``` bash
-git clone https://github.com/yourusername/telegram-downloader.git
-cd telegram-downloader
+git clone https://github.com/IceCube9680/Save-Restricted-Content.git
+cd Save-Restricted-Content
 
 python -m venv venv
 source venv/bin/activate
 
 pip install -r requirements.txt
-```
-
-Create `.env`:
-
-``` ini
-API_ID=123456
-API_HASH=your_api_hash
-BOT_TOKEN=your_bot_token
-MONGODB_URI=mongodb://localhost:27017
-DATABASE_NAME=telegram_downloader
-ADMINS=123456789
 ```
 
 Run:
@@ -198,6 +196,15 @@ backups.
 MIT License
 
 ------------------------------------------------------------------------
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for **personal and educational use only**.  
+You are responsible for complying with Telegram TOS and local laws.
+
+---
 
 <div align="center">
 ### 🌟 If you find this project useful:
